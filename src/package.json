@@ -1,0 +1,14 @@
+{
+  "name": "iaproject",
+  "title": "Art Project for Firefox",
+  "id": "jid1-2owcJCGUIo2yBA",
+  "description": "Art Project masterpieces from Google Cultural Institute in your Firefox's new tabs",
+  "author": "Jeremy Schomery",
+  "license": "MPL 2.0",
+  "version": "0.1.0",
+  "icon": "data/icons/32.png",
+  "icon64": "data/icons/64.png",
+  "permissions": {
+    "private-browsing": true
+  }
+}

@@ -1,0 +1,30 @@
+<overlay id="artworks-overlay"
+  xmlns:html="http://www.w3.org/1999/xhtml"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <window id="newtab-window">
+    <html:div id="artworks-container">
+      <html:table>
+        <html:tr>
+          <html:td>
+            <html:div>
+              <image src="resource://jid1-2owcjcguio2yba-at-jetpack/iaproject/data/content_script/refresh.png"></image>
+            </html:div>
+          </html:td>
+          <html:td>
+            <html:a type="title"></html:a>
+          </html:td>
+        </html:tr>
+        <html:tr>
+          <html:td></html:td>
+          <html:td>
+            <html:a type="creator"></html:a>
+            <label value="|"/>
+            <html:a type="attribution"></html:a>
+          </html:td>
+        </html:tr>
+      </html:table>
+    </html:div>
+  </window>
+</overlay>
